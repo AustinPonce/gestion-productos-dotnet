@@ -65,6 +65,7 @@
 ###############################################################################
 # Overrides para detección de lenguaje en GitHub (Linguist)
 ###############################################################################
-*.html linguist-detectable=false
+*.cs linguist-language=C#
 *.cshtml linguist-language=C#
-Laboratorio04.Web/** linguist-detectable=false
+*.csproj linguist-language=C#
+*.html linguist-language=C#
